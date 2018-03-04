@@ -1,0 +1,84 @@
+h1 {
+    color: #4f4b56;
+    font-size:60px;
+   line-height: 1.5;
+   text-indent: 110px;
+   margin-top: auto;
+}
+
+ul{
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	overflow:hidden;
+	color: #4f4b56;
+	position:relative;
+	top:-42px;
+	font-family: 'Roboto Mono';
+	border-bottom-color: black;
+	border-bottom-style: solid;
+    border-width: thin;
+	font-size: 1.5em;
+}
+
+li a{
+	display: block;
+	color: #4f4b56;
+	text-align: right;
+	padding: 14px 18px;
+	border-top-color: #4f4b56;
+	border-top-style: solid;
+	border-top-width: thin;
+	margin-right:50px;
+}
+
+li .active{
+	color:white;
+	background-color:#a81606;
+	opacity:.5;
+}
+
+li{
+	float: right;
+}
+h3 {
+    width:800px;
+   position: relative;
+   top:-36px;
+   margin-right: auto;
+   margin-left: auto;
+   background-color: transparent;
+   color:#000638;
+   font-size:25px;
+   letter-spacing: .5px;
+   line-height: 1.4;
+   font-style: normal;
+}
+
+h4 {
+    
+    position:relative;
+    top:-42px;
+    color:#000638;
+    font-size: 35px;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    opacity: .6;
+}
+
+h2 {
+ width:800px;
+   position: relative;
+   top: -500px;
+   margin-right: auto;
+   margin-left: auto;
+   background-color: transparent;
+   color:#000638;
+   font-size:25px;
+   letter-spacing: .5px;
+   line-height: 1.4;
+   font-style: normal;
+  opacity: 0.6; 
+  vertical-align: middle;
+}

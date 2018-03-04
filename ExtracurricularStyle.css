@@ -1,0 +1,119 @@
+h1 {
+    color: #4f4b56;
+    font-size:60px;
+   line-height: 1.5;
+   text-indent: 110px;
+   margin-top: auto;
+}
+
+ul{
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	overflow:hidden;
+	color: #4f4b56;
+	position:relative;
+	top:-42px;
+	font-family: 'Roboto Mono';
+	border-bottom-color: black;
+	border-bottom-style: solid;
+    border-width: thin;
+	font-size: 1.5em;
+}
+
+li a{
+	display: block;
+	color: #4f4b56;
+	text-align: right;
+	padding: 14px 18px;
+	border-top-color: #4f4b56;
+	border-top-style: solid;
+	border-top-width: thin;
+	margin-right:50px;
+}
+
+li .active1{
+	color:white;
+	background-color:#a81606;
+	opacity:.5;
+}
+
+li{
+	float: right;
+}
+h5 {
+	position:relative;
+    background-color: red;
+    top:-22px;
+    color: #4f4b56;
+    
+}
+    .accordion {
+        background-color: #eee;
+        margin-right: auto;
+        margin-left: auto;
+        color: #444;
+        cursor: pointer;
+        width: 33%;
+        text-align: center;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+    }
+.panel {
+        padding: 0 18px;
+        background-color: transparent;
+        display: none;
+        overflow: hidden;
+}
+.panel1 {
+        padding: 0 9px;
+        background-color: white;
+        width: 30%;
+        display: none;
+        overflow: hidden;
+}
+.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+    .active:after {
+    content: "\2796"; 
+    }
+    
+.a {
+    width:800px;
+   position: relative;
+   top:1020px;
+   margin-right: auto;
+   margin-left: auto;
+   background-color:transparent;
+   color:#000638;
+   font-size:25px;
+   letter-spacing: .5px;
+   line-height: 1.4;
+   z-index: -1;
+}
+
+h8 {
+     width:800px;
+   position: relative;
+   top:-100px;
+   margin-right: auto;
+   margin-left: auto;
+   background-color:transparent;
+   color:#000638;
+   font-size:25px;
+   letter-spacing: .5px;
+   line-height: 2;
+}
+.description {
+    font:monospace;
+    font-size:10px;
+    margin-right: auto;
+    margin-left: auto;
+}
